@@ -37,6 +37,17 @@ export default defineConfig({
           ],
         },
         {
+          label: 'Ateliers pratiques',
+          items: [
+            { label: 'Atelier 01 · Explorer son ordinateur', slug: 'ateliers/atelier-01-informatique' },
+            { label: 'Atelier 02 · Observer son système', slug: 'ateliers/atelier-02-systeme' },
+            { label: 'Atelier 03 · Cartographier un réseau', slug: 'ateliers/atelier-03-reseaux' },
+            { label: 'Atelier 04 · Lire une URL', slug: 'ateliers/atelier-04-web' },
+            { label: 'Atelier 05 · Premiers pas dans le terminal', slug: 'ateliers/atelier-05-terminal' },
+            { label: 'Atelier 06 · Analyser des risques', slug: 'ateliers/atelier-06-securite' },
+          ],
+        },
+        {
           label: 'Références',
           items: [
             { label: 'Glossaire essentiel', slug: 'references/glossaire' },
