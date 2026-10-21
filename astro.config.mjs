@@ -13,9 +13,13 @@ export default defineConfig({
           lang: 'fr',
         },
       },
-      social: {
-        github: 'https://github.com/digitaleflex/hashcode-foundations',
-      },
+      social: [
+        {
+          icon: 'github',
+          label: 'GitHub',
+          href: 'https://github.com/digitaleflex/hashcode-foundations',
+        },
+      ],
       sidebar: [
         {
           label: 'Commencer ici',
