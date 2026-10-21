@@ -1,52 +1,91 @@
 ---
-title: Bienvenue dans HashCode Foundations
-description: Le parcours de préparation informatique avant les fondamentaux de la cybersécurité.
+title: HashCode Foundations
+description: Les bases solides pour aller plus loin en informatique et en cybersécurité.
 template: splash
-hero:
-  tagline: Comprendre les systèmes avant d’apprendre à les protéger.
-  actions:
-    - text: Découvrir le parcours
-      link: /parcours-pedagogique/
-      icon: right-arrow
-      variant: primary
-    - text: Évaluer mon niveau
-      link: /evaluation/quiz-positionnement/
-      variant: minimal
-      icon: external
 ---
 
-import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+<div class="hc-home">
+  <section class="hc-home-hero">
+    <div class="hc-hero-copy">
+      <span class="hc-eyebrow">HashCode Foundations</span>
+      <h1>Les bases solides pour aller <span>plus loin.</span></h1>
+      <p>Maîtrisez les notions essentielles d’informatique, de réseaux, de systèmes et de sécurité pour réussir votre parcours en cybersécurité.</p>
+      <div class="hc-hero-actions">
+        <a class="hc-button hc-button-primary" href="/parcours-pedagogique/">Commencer le parcours <span aria-hidden="true">↗</span></a>
+        <a class="hc-button" href="/evaluation/quiz-positionnement/">Passer le quiz de positionnement</a>
+      </div>
+    </div>
+    <div class="hc-hero-visual">
+      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=85" alt="Détail d’un circuit électronique sur fond sombre" loading="eager" />
+      <div class="hc-visual-label">
+        <span>Comprendre. Expérimenter. Sécuriser.</span>
+        <strong>H / FOUNDATIONS</strong>
+      </div>
+    </div>
+  </section>
 
-HashCode Foundations est le parcours d’initiation de HashCode. Il donne aux apprenants les repères nécessaires en informatique, systèmes, réseaux et sécurité numérique avant d’aborder les fondamentaux de la cybersécurité.
+  <div class="hc-stats" aria-label="Contenu du parcours">
+    <div class="hc-stat"><span class="hc-stat-mark" aria-hidden="true">▤</span><span><strong>06 modules</strong>Un parcours progressif</span></div>
+    <div class="hc-stat"><span class="hc-stat-mark" aria-hidden="true">⌘</span><span><strong>06 ateliers</strong>Apprendre en pratiquant</span></div>
+    <div class="hc-stat"><span class="hc-stat-mark" aria-hidden="true">＋20</span><span><strong>Exercices</strong>Consolider les acquis</span></div>
+    <div class="hc-stat"><span class="hc-stat-mark" aria-hidden="true">↗</span><span><strong>Open source</strong>Apprendre sans barrière</span></div>
+  </div>
 
-<CardGrid stagger>
-  <Card title="Un parcours progressif" icon="open-book">
-    Six modules structurés, des notions simples vers les concepts qui servent directement en cybersécurité.
-  </Card>
-  <Card title="Apprendre en pratiquant" icon="puzzle">
-    Des objectifs observables, des démonstrations et des exercices pour vérifier sa compréhension.
-  </Card>
-  <Card title="Accessible aux débutants" icon="people">
-    Aucun prérequis en programmation. Le quiz aide à identifier les notions à réviser, sans exclure les débutants.
-  </Card>
-</CardGrid>
+  <section class="hc-section">
+    <div class="hc-section-heading">
+      <div>
+        <span class="hc-eyebrow">Un parcours progressif</span>
+        <h2>Six modules pour des bases solides</h2>
+        <p>Avancez des fondamentaux informatiques aux réflexes de sécurité, avec des notions utiles et des exercices concrets.</p>
+      </div>
+      <a class="hc-text-link" href="/parcours-pedagogique/">Voir tout le parcours ↗</a>
+    </div>
 
-## Le parcours
+    <div class="hc-module-grid">
+      <a class="hc-module-card" href="/fondamentaux/bases-informatique/">
+        <span class="hc-module-number">01</span><h3>Bases de l’informatique</h3><p>Matériel, logiciels, fichiers et systèmes.</p><div class="hc-module-meta"><span>◷ Environ 2 h</span><span class="hc-module-arrow" aria-hidden="true">↗</span></div>
+      </a>
+      <a class="hc-module-card" href="/fondamentaux/systemes-exploitation/">
+        <span class="hc-module-number">02</span><h3>Systèmes d’exploitation</h3><p>Windows, Linux, utilisateurs et permissions.</p><div class="hc-module-meta"><span>◷ Environ 3 h</span><span class="hc-module-arrow" aria-hidden="true">↗</span></div>
+      </a>
+      <a class="hc-module-card" href="/fondamentaux/reseaux/">
+        <span class="hc-module-number">03</span><h3>Réseaux informatiques</h3><p>IP, routeurs, ports et protocoles.</p><div class="hc-module-meta"><span>◷ Environ 3 h</span><span class="hc-module-arrow" aria-hidden="true">↗</span></div>
+      </a>
+      <a class="hc-module-card" href="/fondamentaux/internet-web/">
+        <span class="hc-module-number">04</span><h3>Internet et Web</h3><p>DNS, HTTP, HTTPS et échanges navigateur-serveur.</p><div class="hc-module-meta"><span>◷ Environ 2 h</span><span class="hc-module-arrow" aria-hidden="true">↗</span></div>
+      </a>
+      <a class="hc-module-card" href="/fondamentaux/ligne-commande/">
+        <span class="hc-module-number">05</span><h3>Ligne de commande</h3><p>Terminal, commandes et premières automatisations.</p><div class="hc-module-meta"><span>◷ Environ 3 h</span><span class="hc-module-arrow" aria-hidden="true">↗</span></div>
+      </a>
+      <a class="hc-module-card" href="/fondamentaux/securite-numerique/">
+        <span class="hc-module-number">06</span><h3>Sécurité numérique</h3><p>Menaces, mots de passe, sauvegardes et bonnes pratiques.</p><div class="hc-module-meta"><span>◷ Environ 3 h</span><span class="hc-module-arrow" aria-hidden="true">↗</span></div>
+      </a>
+    </div>
+  </section>
 
-<CardGrid>
-  <LinkCard title="01 · Bases de l’informatique" href="/fondamentaux/bases-informatique/" description="Matériel, processeur, mémoire, stockage, fichiers et applications." />
-  <LinkCard title="02 · Systèmes d’exploitation" href="/fondamentaux/systemes-exploitation/" description="Windows, Linux, comptes, permissions et processus." />
-  <LinkCard title="03 · Réseaux informatiques" href="/fondamentaux/reseaux/" description="IP, routeurs, ports, protocoles et modèle client-serveur." />
-  <LinkCard title="04 · Internet et Web" href="/fondamentaux/internet-web/" description="DNS, HTTP, HTTPS, TLS et échanges navigateur-serveur." />
-  <LinkCard title="05 · Ligne de commande" href="/fondamentaux/ligne-commande/" description="Découvrir le terminal et inspecter son système sans risque." />
-  <LinkCard title="06 · Sécurité numérique" href="/fondamentaux/securite-numerique/" description="Authentification, phishing, sauvegardes et hygiène numérique." />
-</CardGrid>
+  <section class="hc-feature-grid" aria-label="Ressources du parcours">
+    <article class="hc-feature">
+      <span class="hc-feature-mark" aria-hidden="true">⌁</span>
+      <h3>Ateliers pratiques</h3>
+      <p>Mettez en application les notions avec des exercices guidés et des consignes sûres.</p>
+      <a href="/ateliers/atelier-01-informatique/">Explorer les ateliers ↗</a>
+    </article>
+    <article class="hc-feature">
+      <span class="hc-feature-mark" aria-hidden="true">▥</span>
+      <h3>Évaluations</h3>
+      <p>Identifiez votre niveau de départ et vérifiez votre compréhension au fil du parcours.</p>
+      <a href="/evaluation/quiz-positionnement/">Évaluer mon niveau ↗</a>
+    </article>
+    <article class="hc-feature">
+      <span class="hc-feature-mark" aria-hidden="true">◎</span>
+      <h3>Références essentielles</h3>
+      <p>Retrouvez les définitions clés et les règles à suivre pour pratiquer de manière responsable.</p>
+      <a href="/references/glossaire/">Consulter les ressources ↗</a>
+    </article>
+  </section>
 
-## Comment utiliser ce site
-
-1. Passe le [quiz de positionnement](/evaluation/quiz-positionnement/) pour repérer les notions que tu connais déjà.
-2. Suis les modules dans l’ordre conseillé, ou révise les sujets qui te manquent.
-3. Réalise les exercices dans un environnement personnel ou autorisé.
-4. Explique les concepts avec tes propres mots avant de passer aux fondamentaux de la cybersécurité.
-
-> **Principe HashCode :** l’objectif n’est pas de mémoriser des termes, mais de comprendre comment les systèmes fonctionnent et pourquoi cela compte pour leur sécurité.
+  <aside class="hc-quote">
+    <p>« Une bonne cybersécurité commence toujours par de bonnes bases. »</p>
+    <strong>HASHCODE / LEARN BY UNDERSTANDING</strong>
+  </aside>
+</div>
