@@ -2,12 +2,11 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-  site: 'https://hashcode-foundations.vercel.app',
   integrations: [
     starlight({
       title: 'HashCode Foundations',
       description: 'Le socle informatique pour entrer dans la cybersécurité.',
-      defaultLocale: 'fr',
+      defaultLocale: 'root',
       locales: {
         root: {
           label: 'Français',
