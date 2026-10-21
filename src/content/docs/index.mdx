@@ -1,0 +1,52 @@
+---
+title: Bienvenue dans HashCode Foundations
+description: Le parcours de préparation informatique avant les fondamentaux de la cybersécurité.
+template: splash
+hero:
+  tagline: Comprendre les systèmes avant d’apprendre à les protéger.
+  actions:
+    - text: Découvrir le parcours
+      link: /parcours-pedagogique/
+      icon: right-arrow
+      variant: primary
+    - text: Évaluer mon niveau
+      link: /evaluation/quiz-positionnement/
+      variant: minimal
+      icon: external
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+HashCode Foundations est le parcours d’initiation de HashCode. Il donne aux apprenants les repères nécessaires en informatique, systèmes, réseaux et sécurité numérique avant d’aborder les fondamentaux de la cybersécurité.
+
+<CardGrid stagger>
+  <Card title="Un parcours progressif" icon="open-book">
+    Six modules structurés, des notions simples vers les concepts qui servent directement en cybersécurité.
+  </Card>
+  <Card title="Apprendre en pratiquant" icon="puzzle">
+    Des objectifs observables, des démonstrations et des exercices pour vérifier sa compréhension.
+  </Card>
+  <Card title="Accessible aux débutants" icon="people">
+    Aucun prérequis en programmation. Le quiz aide à identifier les notions à réviser, sans exclure les débutants.
+  </Card>
+</CardGrid>
+
+## Le parcours
+
+<CardGrid>
+  <LinkCard title="01 · Bases de l’informatique" href="/fondamentaux/bases-informatique/" description="Matériel, processeur, mémoire, stockage, fichiers et applications." />
+  <LinkCard title="02 · Systèmes d’exploitation" href="/fondamentaux/systemes-exploitation/" description="Windows, Linux, comptes, permissions et processus." />
+  <LinkCard title="03 · Réseaux informatiques" href="/fondamentaux/reseaux/" description="IP, routeurs, ports, protocoles et modèle client-serveur." />
+  <LinkCard title="04 · Internet et Web" href="/fondamentaux/internet-web/" description="DNS, HTTP, HTTPS, TLS et échanges navigateur-serveur." />
+  <LinkCard title="05 · Ligne de commande" href="/fondamentaux/ligne-commande/" description="Découvrir le terminal et inspecter son système sans risque." />
+  <LinkCard title="06 · Sécurité numérique" href="/fondamentaux/securite-numerique/" description="Authentification, phishing, sauvegardes et hygiène numérique." />
+</CardGrid>
+
+## Comment utiliser ce site
+
+1. Passe le [quiz de positionnement](/evaluation/quiz-positionnement/) pour repérer les notions que tu connais déjà.
+2. Suis les modules dans l’ordre conseillé, ou révise les sujets qui te manquent.
+3. Réalise les exercices dans un environnement personnel ou autorisé.
+4. Explique les concepts avec tes propres mots avant de passer aux fondamentaux de la cybersécurité.
+
+> **Principe HashCode :** l’objectif n’est pas de mémoriser des termes, mais de comprendre comment les systèmes fonctionnent et pourquoi cela compte pour leur sécurité.
